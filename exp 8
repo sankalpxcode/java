@@ -1,0 +1,37 @@
+class A 	 
+{  
+ 	protected int num = 20;  	void welcome() 
+ 	{ 
+ 	System.out.println("Welcome A"); 
+ 	} 
+} 
+ 
+class B2 extends A 	 
+{  
+ 	public static void main(String args[]) 
+ 	{ 
+ 	A a1 = new A();  	a1.welcome(); 
+ 	System.out.println("Number: "+a1.num); 
+ 	} 
+} 
+EXp 9.0 multiple 	 interface B { 	 
+ 	void Welcome(int a); 
+} 
+ 
+class A { 	 
+ 	public void Welcome() {  	System.out.println("Welcome A"); 
+ 	} 
+} 
+ 
+class CI extends A implements B { 	 
+ 	@Override 
+ 	public void Welcome(int a) { 
+ 	System.out.println("Welcome B = " + a); 
+} 
+ 
+ 	public static void main(String[] args) {  	CI c1 = new CI();  
+ 	c1.Welcome(); 	// Calls Welcome() from class A 	  	c1.Welcome(10); 	// Calls Welcome(int a) from interface B implemented in CI 
+ 	} 
+} 
+ 
+ 
