@@ -1,0 +1,51 @@
+1
+class Exam 	 
+{  
+ 	private int k;  	private String stress;  	public Exam() 
+ 	{ 
+ 	this.stress = "Welcome to SE3"; 
+ 	} 
+ 	public Exam(int a, int b) 
+ 	{ 
+ 	this.k=a+b; 
+ 	} 
+ 	public String toString() 
+ 	{ 
+ 	return stress; 
+ 	} 
+ 	public int Sum() 
+ 	{ 
+ 	return k; 
+} 
+ 
+ 	public static void main(String []aishu) 
+ 	{ 
+ 	Exam d1=new Exam(); 
+ 	Exam d2=new Exam(10,30); 
+ 	System.out.println(d1); 
+ 	System.out.println(d2.Sum()); 
+ 	} 
+}  
+2
+class Stress { 	  	private String msg; 
+private int sum; 
+ 
+ public Stress() {  this.msg = "Welcome to SE3"; 
+ 	} 
+ 	public Stress(int i, int j) {  	this.sum = i + j; 
+ 	} 
+public int Sum(){ 
+ 	return sum; 
+} 
+ 
+ 	public String toString() {  	return msg; 
+} 
+ 
+ 	public static void main(String[] aishu) { 
+ 	Stress d1 = new Stress(); 
+ 	Stress d2 = new Stress(10, 20); 
+ 	System.out.println(d1); 
+ 	System.out.println(d2.Sum()); 
+ 	} 
+} 
+  
