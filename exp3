@@ -1,0 +1,16 @@
+import java.io.IOException; 
+ 
+public class NotePad { 	  public static void main(String[] args) 
+ { 
+ 	Runtime rs = Runtime.getRuntime();  	try 
+{ 
+ 
+ 	rs.exec("notepad.exe"); 
+ 	System.out.println("Notepad opened successfully."); 
+ 	} 
+ 	catch (IOException e) 
+ 	{ 
+ 	System.out.println("Error occurred: " + e.getMessage()); 
+ 	} 
+ } 
+} 
