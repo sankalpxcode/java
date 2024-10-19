@@ -1,0 +1,13 @@
+ class StringStorage 	 
+{  
+ 	public static void main(String aishu[]) 
+ 	{ 
+ 	String s1 = "Nice "; 
+ 	String s2 = new String("to"); 
+ 	StringBuffer s3 = new StringBuffer("meet");  	StringBuilder s4 = new StringBuilder("you");  	s4=s4.append(" all");  	System.out.println(s1); 
+ 	System.out.println(s2); 
+ 	System.out.println(s3); 
+ 	System.out.println(s4); 
+ 	} 
+} 
+ 
