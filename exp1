@@ -1,0 +1,15 @@
+import 	 java.util.Scanner; class 	 TakeInput 
+{  
+ 	public static void main(String args[]) 
+ 	{ 
+ 	String inputstring; 
+System.out.println("Enter a number: "); 
+Scanner scanner=new Scanner(System.in);  	inputstring=scanner.nextLine();  	int i,tab; 
+ 	for(int i=1;i<=10;i++) 
+ 	{ 
+ 	tab=inputstring*i; 
+ 	System.out.println(+tab); 
+ 	} 
+ 	} 
+} 
+ 
